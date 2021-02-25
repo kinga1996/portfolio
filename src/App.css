@@ -1,38 +1,108 @@
-.App {
-  text-align: center;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+    font-family: 'Roboto Slab', serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.header{
+    width: 100%;
+    height: 90vh;
+    background: url("/src/img/main_background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.navbar{
+    width: 100%;
+    height: 10vh;
+    background-color: #bbbbbb;
+    justify-content: space-between;
 }
 
-.App-link {
-  color: #61dafb;
+.navbar-content{
+    text-align: right;
+    padding-right: 3vw;
+    padding-top: 1vh;
+    list-style-type: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navbar-content li {
+    display: inline-block;
+    font-weight: 600;
+    font-size: 1.4em;
+    padding-right: 5vw;
+}
+
+.navbar-content li a{
+    text-decoration: none;
+    color: #0a043c;
+    transition:font-size 1s;
+}
+
+.navbar-content li a:hover{
+    font-size: 1.6em;
+}
+
+.header-content{
+    padding-top: 40vh;
+    width: 35vw;
+    margin-left: 10vw;
+}
+
+.header-content h1{
+    font-size: 4em;
+    color: #ffe3d8;
+}
+
+.header-content h2{
+    font-size: 2em;
+    color: #0a043c;
+}
+
+.header-content ul{
+    margin-top: 1vh;
+    display: flex;
+}
+
+.header-content li{
+    list-style-type: none;
+    margin-right: 3vw;
+    width: 50px;
+    height: 50px;
+    border: 2px #ffe3d8 solid;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffe3d8;
+    font-size: 1.4em;
+    transition:font-size 1s;
+    background-color: #0a043c;
+}
+
+.header-content li:hover{
+    width: 55px;
+    height: 55px;
+}
+
+.about{
+    padding-top: 3vh;
+    background-color: #ffe3d8;
+    color: #0a043c;
+    text-align: center;
+}
+
+.about h1{
+        text-decoration: underline;
+}
+
+.section-content-am{
+    display: inline-block;
+    padding-top: 3vh;
+    width: 45%;
+    margin-left: 5vw;
 }
