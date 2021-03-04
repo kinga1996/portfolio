@@ -2,12 +2,12 @@ import React from 'react'
 
 import {FaGithub} from "react-icons/fa"
 import {FaLinkedin} from "react-icons/fa"
-
+import foto from '../img/ja1-ps.png'
 
 const Banner = () => {
     return (
         <header className="header">
-            <div class="header-content">
+            <div className="header-content">
                 <h1>
                     Hi, I am Kinga Kalisz
                 </h1>
@@ -20,6 +20,9 @@ const Banner = () => {
                     <li><FaGithub /></li>
                     </ul>
                 </div>
+            </div>
+            <div className="header-foto">
+                <img src={foto} alt="foto me" />
             </div>
         </header>
     )
