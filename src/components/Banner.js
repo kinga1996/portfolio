@@ -1,5 +1,7 @@
 import React from 'react'
 
+import './css/Banner.css';
+
 import {FaGithub} from "react-icons/fa"
 import {FaLinkedin} from "react-icons/fa"
 import foto from '../img/ja1-ps.png'

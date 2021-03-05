@@ -1,0 +1,23 @@
+.projects{
+    padding: 5vh 5vw;
+    background-color: #03506f;
+}
+
+.projects h1{
+    color: #bbbbbb;
+    font-size: 2.8em;
+    text-align: center;
+    text-decoration: underline;
+    padding-bottom: 3vh;
+}
+
+.projects-info-p{
+    display: inline-block;
+    width: 25vw;
+    justify-content: space-between;
+}
+
+.projects-info-p img{
+    width: 25vw;
+    height: auto;
+}

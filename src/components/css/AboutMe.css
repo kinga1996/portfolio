@@ -1,0 +1,54 @@
+.about{
+    padding: 5vh 10vw;
+    background-color: #0a043c;
+}
+
+.about h1{
+    color: #ffffff;
+    font-size: 2.8em;
+    text-align: center;
+    text-decoration: underline;
+    padding-bottom: 3vh;
+}
+
+.about-img img{
+    max-height: 50vh;
+    width: auto;
+}
+
+.about-img{
+    display: inline-block;
+    padding-right: 5vw;
+}
+
+.about-info{
+    color: #ffffff;
+    display: inline-block;
+    width: 50vw;
+    text-align: center;
+    vertical-align: top;
+    padding-top: 5vh;
+}
+
+.about-info h2{
+    font-size: 1.8em;
+    padding-bottom: 2vh;
+    color: #ffe3d8;
+}
+
+.about-contact h6{
+    font-size: 1em;
+    padding-top: 1vh;
+    color: #ffe3d8;
+}
+
+.about-contact{
+    padding: 3vh 0;
+}
+
+.about-info a{
+    color: #ffffff;
+    background-color: #03506f;
+    padding: 5px;
+    border: solid 1px #bbbbbb;
+}
