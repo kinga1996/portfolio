@@ -8,10 +8,10 @@ import foto from '../img/ja1-ps.png'
 
 const Banner = () => {
     return (
-        <header className="header">
+        <header className="section header">
             <div className="header-content">
                 <h1>
-                    Hi, I am Kinga Kalisz
+                    Hi, I am Kinga Kalisz!
                 </h1>
                 <h2>
                     I am looking for a job as a Junior Front-end Developer.

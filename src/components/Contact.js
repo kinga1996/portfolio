@@ -8,7 +8,7 @@ const Contact = () => {
     { id: 2, title: "LinkedIn:", text: "www.linkedin.com/in/kinga-kalisz"},
     ])
     return (
-        <div className="contact">
+        <div className="section contact">
             <h1>Contact</h1>
             <h3>Please feel free to contact me. I will try to respond as soon as possible.</h3>
             <div className="contact-map">

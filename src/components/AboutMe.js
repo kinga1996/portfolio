@@ -9,12 +9,12 @@ import Pdf from '../doc/CV.pdf';
 
 const AboutMe = () => {
   const [state] = React.useState([
-    { id: 1, title: "City:", text: "Warsaw, Poland" },
-    { id: 2, title: "Availability:", text: "one week - negotiable" },
-    { id: 3, title: "Disposability:", text: "3 days in week - negotiable" }
+    { key: '1', id: 1, title: "City:", text: "Warsaw, Poland" },
+    { key: '2', id: 2, title: "Availability:", text: "one week - negotiable" },
+    { key: '3', id: 3, title: "Disposability:", text: "3 days in week - negotiable" }
   ]);
   return (
-    <div className="about">
+    <div className="section about">
             <h1>About Me</h1>
             <div className="about-img">
                 <img src={foto} alt="foto me" />
