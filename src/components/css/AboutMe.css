@@ -5,6 +5,7 @@
 
 .about h1{
     color: #ffffff;
+    text-shadow: 1px 1px #ffe3d8;
     font-size: 2.8em;
     text-align: center;
     text-decoration: underline;

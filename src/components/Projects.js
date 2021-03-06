@@ -11,7 +11,7 @@ const Projects = () => {
     const [state] = React.useState([
         {
             id: 1,
-            heading: "Weather",
+            heading: "Weather App",
             technologies: "ReactJS, CSS",
             code: "https://github.com/kinga1996/react-weather-app-code",
             link: "https://kinga1996.github.io/react-weather-app/",
@@ -54,9 +54,9 @@ const Projects = () => {
                     <h6>Technologies:</h6>
                     <p>{info.technologies}</p>
                     <h6>Link to code:</h6>
-                    <p>{info.code}</p>
+                    <a href={info.code} target = "_blank">{info.code}</a>
                     <h6>See website:</h6>
-                    <p>{info.link}</p>
+                    <a href={info.link} target = "_blank">{info.link}</a>
                 </div>
             ))}
         </div>

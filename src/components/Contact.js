@@ -1,5 +1,7 @@
 import React from 'react'
 
+import './css/Contact.css'
+
 const Contact = () => {
     const [state] = React.useState([
     { id: 1, title: "Email:", text: "kingakalisz@gmail.com"},
@@ -12,7 +14,7 @@ const Contact = () => {
             <div className="contact-map">
                   {state.map((info) => (
                     <div className="contact-map-p">
-                      <h6>{info.title}</h6>
+                      <h4>{info.title}</h4>
                       <p>{info.text}</p>
                     </div>
                   ))}

@@ -1,23 +1,52 @@
 .projects{
-    padding: 5vh 5vw;
+    padding: 5vh 8vw;
     background-color: #03506f;
 }
 
 .projects h1{
-    color: #bbbbbb;
+    color: #ffffff;
+    text-shadow: 1px 1px #ffe3d8;
     font-size: 2.8em;
     text-align: center;
     text-decoration: underline;
-    padding-bottom: 3vh;
+    padding-bottom: 5vh;
+}
+
+.projects-info{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .projects-info-p{
-    display: inline-block;
-    width: 25vw;
-    justify-content: space-between;
+    width: 32vw;
+    padding: 1vw;
+    vertical-align: top;
+    margin-bottom: 2vh;
+    background-color: #ffe3d8;
+    text-align: center;
+    box-shadow: 3px 3px #bbbbbb;
 }
 
 .projects-info-p img{
-    width: 25vw;
+    width: 30vw;
     height: auto;
+    border: solid 1px #0a043c;
+}
+
+.projects-info-p h5{
+    font-size: 1.2em;
+    color: #0a043c;
+    text-shadow: 1px 1px #ffffff;
+}
+
+.projects-info-p h6{
+    font-size: 0.9em;
+    margin-top: 5px;
+}
+
+.projects-info-p a{
+    font-size: 0.8em;
+    color: black;
 }
