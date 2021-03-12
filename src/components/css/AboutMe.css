@@ -37,7 +37,7 @@
     color: #ffe3d8;
 }
 
-.about-contact h6{
+.about h6{
     font-size: 1em;
     padding-top: 1vh;
     color: #ffe3d8;
@@ -52,4 +52,8 @@
     background-color: #03506f;
     padding: 5px;
     border: solid 1px #bbbbbb;
+}
+
+.can-do{
+    padding-top: 3vh;
 }
