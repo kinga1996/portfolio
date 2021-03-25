@@ -13,8 +13,10 @@ const Projects = () => {
             id: 1,
             heading: "Weather App",
             technologies: "ReactJS, CSS",
-            code: "https://github.com/kinga1996/react-weather-app-code",
+            code: "https://github.com/kinga1996/react-weather-app",
             link: "https://kinga1996.github.io/react-weather-app/",
+            tcode: "github.com/kinga1996/react-weather-app",
+            tlink: "kinga1996.github.io/react-weather-app/",
             foto: fotoweather
         },
         {
@@ -23,6 +25,8 @@ const Projects = () => {
             technologies: "HTML, CSS, JavaScript",
             code: "https://github.com/kinga1996/to-do",
             link: "https://kinga1996.github.io/to-do/",
+            tcode: "github.com/kinga1996/to-do",
+            tlink: "kinga1996.github.io/to-do/",
             foto: fototodo
         },
         {
@@ -31,6 +35,8 @@ const Projects = () => {
             technologies: "HTML, CSS, JavaScript",
             code: "https://github.com/kinga1996/webcam-fun",
             link: "https://kinga1996.github.io/webcam-fun/",
+            tcode: "github.com/kinga1996/webcam-fun",
+            tlink: "kinga1996.github.io/webcam-fun/",
             foto: fotowebcam
         },
         {
@@ -39,6 +45,8 @@ const Projects = () => {
             technologies: "HTML, CSS, JavaScript",
             code: "https://github.com/kinga1996/speech-recognition",
             link: "https://kinga1996.github.io/speech-recognition/",
+            tcode: "github.com/kinga1996/speech-recognition",
+            tlink: "kinga1996.github.io/speech-recognition/",
             foto: fotospeech
         }
     ]);
@@ -48,15 +56,15 @@ const Projects = () => {
 
         <div className="projects-info">
             {state.map((info) => (
-                <div className="projects-info-p">
+                <div key={info.id} className="projects-info-p">
                     <img src={info.foto} alt="Screenshot of my project" />
                     <h5>{info.heading}</h5>
                     <h6>Technologies:</h6>
                     <p>{info.technologies}</p>
-                    <h6>Link to code:</h6>
-                    <a href={info.code} target = "_blank">{info.code}</a>
-                    <h6>See website:</h6>
-                    <a href={info.link} target = "_blank">{info.link}</a>
+                    <h6>The code:</h6>
+                    <a href={info.code} target = "_blank">{info.tcode}</a>
+                    <h6>The website:</h6>
+                    <a href={info.link} target = "_blank">{info.tlink}</a>
                 </div>
             ))}
         </div>

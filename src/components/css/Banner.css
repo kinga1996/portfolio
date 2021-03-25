@@ -1,5 +1,5 @@
 .header{
-    width: 100%;
+    width: 100vw;
     height: 90vh;
     background: url("/src/img/main_background.jpg");
     background-repeat: no-repeat;
@@ -16,18 +16,15 @@
     vertical-align: top;
 }
 
-.header-foto{
-    margin-left: 5vw;
-    display: inline;
-}
 
 .header-foto img{
-    max-height: 70vh;
-    width: auto;
+    position: absolute;
+    bottom: 10vh;
+    left: 60vw;
 }
 
 .header-content h1{
-    font-size: 4em;
+    font-size: 4.5em;
     color: #ffffff;
     padding-bottom: 2vh;
     font-family: 'Caveat', cursive;
@@ -56,11 +53,45 @@
     justify-content: center;
     color: #ffffff;
     font-size: 1.4em;
-    transition:font-size 1s;
+    transition:font-size 3s;
     background-color: #0a043c;
 }
 
 .header-content li:hover{
     width: 55px;
     height: 55px;
+}
+
+@media all and (max-width: 1090px){
+.header-content{
+    width: 50vw;
+    margin-left: 5vw;
+    padding-top: 20vh;
+}
+.header-foto img{
+    position: absolute;
+    bottom: 10vh;
+    left: 55vw;
+}}
+
+@media all and (max-width: 800px){
+.header-content{
+    width: 90vw;
+    margin-left: 5vw;
+}
+.header-foto{
+    display: none;
+}
+}
+
+@media all and (max-width: 450px){
+.header-content{
+    padding-top: 0vh;
+}
+.header-content h2{
+    font-size: 1.5em;
+}
+.header-content h1{
+    font-size: 3em;
+}
 }

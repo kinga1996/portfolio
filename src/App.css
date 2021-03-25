@@ -7,3 +7,7 @@
 body{
     font-family: 'Roboto Slab','Rockwell', 'Trebuchet MS';
 }
+
+.App{
+    overflow: hidden;
+}

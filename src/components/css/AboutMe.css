@@ -19,7 +19,6 @@
 
 .about-img{
     display: inline-block;
-    padding-right: 5vw;
 }
 
 .about-info{
@@ -29,12 +28,7 @@
     text-align: center;
     vertical-align: top;
     padding-top: 5vh;
-}
-
-.about-info h2{
-    font-size: 1.8em;
-    padding-bottom: 2vh;
-    color: #ffe3d8;
+    padding-left: 5vw;
 }
 
 .about h6{
@@ -54,6 +48,27 @@
     border: solid 1px #bbbbbb;
 }
 
-.can-do{
-    padding-top: 3vh;
+@media all and (max-width: 1225px){
+    .about{
+        padding: 5vh 7vw;
+    }
+    .about-info{
+        width: 45vw;
+        padding-left: 2vw;
+    }
+}
+
+@media all and (max-width: 875px){
+    .about{
+        padding: 5vh 5vw;
+    }
+    .about-info{
+        width: 85vw;
+    }
+    .about-img{
+        display: none;
+    }
+    .about h1{
+        padding-bottom: 0;
+    }
 }

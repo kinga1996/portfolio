@@ -1,11 +1,12 @@
 .contact{
     padding: 5vh 8vw;
-    background-color: #bbbbbb;
+    background-color: #ffe3d8;
     text-align: center;
+    color: #0a043c;
 }
 
 .contact h1{
-    color: #0a043c;
+    color: #03506f;
     text-shadow: 1px 1px #ffffff;
     font-size: 2.8em;
     text-decoration: underline;
@@ -19,8 +20,10 @@
 .contact h4{
     color: #03506f;
     text-shadow: 1px 1px #ffe3d8;
+    padding-top: 2vh;
 }
 
-.contact-map-p{
-    padding-bottom: 2vh;
+.contact a{
+    text-decoration: none;
+    color: #0a043c;
 }

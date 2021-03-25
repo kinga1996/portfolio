@@ -11,8 +11,6 @@ const LoaderDiv = () => {
         }
         const loader = document.getElementsByClassName('loader')
         loader[0].classList.add('hidden')
-        console.log(sections)
-        console.log(loader)
     }
         return (
             <div className="loader">

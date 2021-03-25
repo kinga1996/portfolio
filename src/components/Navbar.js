@@ -1,20 +1,66 @@
-import React from 'react'
+import React, { Component } from 'react'
+import { Link } from "react-scroll";
 
 import './css/Navbar.css';
 
-const Navbar = () => {
-    return (
-        <nav className="section navbar">
-            <ul className="navbar-content">
-                <li><a href="">Home</a></li>
-                <li><a href="">About me</a></li>
-                <li><a href="">Skills</a></li>
-                <li><a href="">My Projects</a></li>
-                <li><a href="">Contact</a></li>
+//const ScrollLink = Scroll.ScrollLink
 
-            </ul>
-        </nav>
+class Navbar extends Component {
+
+    render(){
+    return (
+        <div className="section navbar">
+            <div className="navbar-content">
+                <ul>
+                <li>
+                    <Link
+                        href=".about"
+                        to="about"
+                        spy={true}
+                        smooth={true}
+                        duration={500}
+                        >
+                        About Me
+                        </Link>
+                </li>
+                <li>
+                    <Link
+                        href=".projects"
+                        to="projects"
+                        spy={true}
+                        smooth={true}
+                        duration={500}
+                        >
+                        My Projects
+                        </Link>
+                </li>
+                <li>
+                    <Link
+                        href=".skills"
+                        to="skills"
+                        spy={true}
+                        smooth={true}
+                        duration={500}
+                        >
+                        Skills
+                        </Link>
+                </li>
+                <li>
+                    <Link
+                        href=".contact"
+                        to="contact"
+                        spy={true}
+                        smooth={true}
+                        duration={500}
+                        >
+                        Contact
+                        </Link>
+                </li>
+                </ul>
+</div>
+        </div>
     )
+    }
 }
 
 export default Navbar

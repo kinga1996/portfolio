@@ -8,7 +8,7 @@
     padding-top: 30vh;
 }
 
-.header, .about, .projects, .contact, .navbar{
+.header, .about, .projects, .contact, .navbar, .skills{
     display: none;
 }
 
@@ -80,3 +80,26 @@
       transform:translateX(25%);
     }
   }
+
+@media all and (max-width: 1050px){
+  .loader-content p:nth-child(1){
+    font-size: 4em;
+  }
+}
+
+@media all and (max-width: 700px){
+  .loader-content p:nth-child(1){
+    font-size: 2em;
+  }
+  .loader-content button{
+    margin-top: 3vh;
+    padding: 10px;
+    font-size: 1em;
+}
+}
+
+@media all and (max-width: 370px){
+  .loader-content p:nth-child(1){
+    font-size: 1.5em;
+  }
+}

@@ -1,5 +1,5 @@
 .projects{
-    padding: 5vh 8vw;
+    padding: 5vh 5vw;
     background-color: #03506f;
 }
 
@@ -20,18 +20,18 @@
 }
 
 .projects-info-p{
-    width: 32vw;
+    width: 40vw;
     padding: 1vw;
     vertical-align: top;
     margin-bottom: 2vh;
     background-color: #ffe3d8;
     text-align: center;
     box-shadow: 3px 3px #bbbbbb;
-    border-radius: 5%;
+    border-radius: 1%;
 }
 
 .projects-info-p img{
-    width: 30vw;
+    width: 35vw;
     height: auto;
     border: solid 1px #0a043c;
 }
@@ -45,9 +45,27 @@
 .projects-info-p h6{
     font-size: 0.9em;
     margin-top: 5px;
+    text-shadow: 1px 1px #ffffff;
 }
 
 .projects-info-p a{
-    font-size: 0.8em;
     color: black;
+}
+
+@media all and (max-width: 900px){
+    .projects{
+        padding: 5vh 5vw;
+    }
+    .projects-info-p{
+        width: 40vw;
+    }
+}
+
+@media all and (max-width: 600px){
+    .projects-info-p{
+        width: 80vw;
+    }
+    .projects-info-p img{
+        width: 70vw;
+    }
 }
