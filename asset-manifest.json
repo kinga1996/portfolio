@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.8d3157df.chunk.css",
+    "main.js": "/portfolio/static/js/main.82d0d3da.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.82d0d3da.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.1906787c.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.1906787c.js.map",
+    "static/js/2.ac0a0ea2.chunk.js": "/portfolio/static/js/2.ac0a0ea2.chunk.js",
+    "static/js/2.ac0a0ea2.chunk.js.map": "/portfolio/static/js/2.ac0a0ea2.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "static/css/main.8d3157df.chunk.css.map": "/portfolio/static/css/main.8d3157df.chunk.css.map",
+    "static/js/2.ac0a0ea2.chunk.js.LICENSE.txt": "/portfolio/static/js/2.ac0a0ea2.chunk.js.LICENSE.txt",
+    "static/media/CV.518278b1.pdf": "/portfolio/static/media/CV.518278b1.pdf",
+    "static/media/ja-2ps.41246c76.png": "/portfolio/static/media/ja-2ps.41246c76.png",
+    "static/media/ja1-ps.f155b8ae.png": "/portfolio/static/media/ja1-ps.f155b8ae.png",
+    "static/media/Banner.css": "/portfolio/static/media/main_background.d6489081.jpg",
+    "static/media/speech.8143a10e.png": "/portfolio/static/media/speech.8143a10e.png",
+    "static/media/to-do.d021ff6a.png": "/portfolio/static/media/to-do.d021ff6a.png",
+    "static/media/weather.31939a78.png": "/portfolio/static/media/weather.31939a78.png",
+    "static/media/webcam.24fc8f26.png": "/portfolio/static/media/webcam.24fc8f26.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1906787c.js",
+    "static/js/2.ac0a0ea2.chunk.js",
+    "static/css/main.8d3157df.chunk.css",
+    "static/js/main.82d0d3da.chunk.js"
+  ]
+}
